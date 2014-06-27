@@ -1,0 +1,35 @@
+english
+zipfR object for frequency spectrum
+Sample size:     N  = 14846 
+Vocabulary size: V  = 3310 
+Class sizes:     Vm = 2098 467 182 105 76 54 50 40 ...
+spanish
+zipfR object for frequency spectrum
+Sample size:     N  = 1206 
+Vocabulary size: V  = 602 
+Class sizes:     Vm = 452 64 29 15 9 7 4 0 ...
+danish
+zipfR object for frequency spectrum
+Sample size:     N  = 743368 
+Vocabulary size: V  = 37883 
+Class sizes:     Vm = 16932 5989 2891 2050 1285 1026 743 623 ...
+german
+zipfR object for frequency spectrum
+Sample size:     N  = 651 
+Vocabulary size: V  = 367 
+Class sizes:     Vm = 252 56 26 16 6 5 2 0 ...
+french
+zipfR object for frequency spectrum
+Sample size:     N  = 1529 
+Vocabulary size: V  = 686 
+Class sizes:     Vm = 492 85 29 19 9 4 5 10 ...
+dutch
+zipfR object for frequency spectrum
+Sample size:     N  = 888173 
+Vocabulary size: V  = 31533 
+Class sizes:     Vm = 13369 4914 2500 1623 1059 799 680 522 ...
+polish
+zipfR object for frequency spectrum
+Sample size:     N  = 669511 
+Vocabulary size: V  = 43608 
+Class sizes:     Vm = 18845 6665 3697 2404 1551 1162 933 770 ...
