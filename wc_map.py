@@ -8,15 +8,23 @@ import sys
 import argparse
 
 parser = argparse.ArgumentParser()
+parser.add_argument("filename")
 
-parser.add_argument("lang")
 args = parser.parse_args()
-lang_id = args.lang
+filepath = "../lang/"
+filename = args.filename
+filex = filepath + filename
+
+lang_id = filename.split(".")[0]
+
+with open(filex) as f:
+    content = f.readlines()
 
 pat = re.compile("^[\-\_]+$")
 
-for line in sys.stdin:
+for line in content:
     for word in re.sub('[^a-z0-9\-\_]', ' ', line.strip().lower()).split(" "):
         if not re.search(pat, word) and len(word) > 0:
             print "\t".join([word, lang_id, "1"])
+            
             
