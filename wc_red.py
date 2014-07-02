@@ -14,7 +14,7 @@ for line in sys.stdin:
         word, lang, count = line.strip().split("\t", 3)
         word_lang = word + "," + lang
         
-        if word_lang not in word_list:
+        if word_lang not in words:
             words[word_lang] = int(count)
         else:
             words[word_lang] += int(count)
